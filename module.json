@@ -3,11 +3,11 @@
   "title": "Tuna's Tome of Terrors",
   "description": "A major expansion to the UESRPG d100 system by TutorialTuna.",
   "authors":  [
-    {
+	{
       "name": "Gman95",
       "Discord": "Gman95#1002"
     },
-	    {
+	{
       "name": "TutorialTuna",
       "Discord": "Tutorialtuna#5117"
     }
@@ -15,16 +15,11 @@
   "url": "https://github.com/95Gman/Tuna-Tome",
   "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
   "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
-  "flags": {},
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
-    {
+	{
       "name": "tunas-tome-of-terrors-bestiary",
       "label": "TTT Bestiary",
       "path": "./packs/tunas-tome-of-terrors-bestiary.db",
