@@ -8,7 +8,7 @@
   "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
   "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
   "flags": {},
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
@@ -83,7 +83,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/Tuna-Tome/main/module.json",
-  "download": "https://github.com/95Gman/Tuna-Tome/archive/refs/tags/1.0.0.zip",
+  "download": "https://github.com/95Gman/Tuna-Tome/archive/refs/tags/1.0.1.zip",
   "protected": false,
   "coreTranslation": false
 }
