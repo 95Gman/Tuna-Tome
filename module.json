@@ -10,70 +10,70 @@
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "packs": [
-	{
+{
       "name": "tunas-tome-of-terrors-bestiary",
       "label": "TTT Bestiary",
       "path": "./packs/tunas-tome-of-terrors-bestiary.db",
       "private": false,
       "entity": "Actor",
       "system": "uesrpg-d100"
-    },
-	{
+},
+{
       "name": "tunas-tome-of-terrors-foes-and-friends",
       "label": "TTT Foes & Friends",
       "path": "./packs/tunas-tome-of-terrors-foes-and-friends.db",
       "private": false,
       "entity": "Actor",
       "system": "uesrpg-d100"
-    },
-	{
+},
+{
       "name": "tunas-tome-of-terrors-items",
       "label": "TTT Items",
       "path": "./packs/tunas-tome-of-terrors-items.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
-    },
-	{
+},
+{
       "name": "tunas-tome-of-terrors-powers",
       "label": "TTT Powers",
       "path": "./packs/tunas-tome-of-terrors-powers.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
-    },
-    {
+},
+{
       "name": "tunas-tome-of-terrors-spellcraft",
       "label": "TTT Spellcraft",
       "path": "./packs/tunas-tome-of-terrors-spellcraft.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
-    },
-    {
+},
+{
       "name": "tunas-tome-of-terrors-talents",
       "label": "TTT Talents",
       "path": "./packs/tunas-tome-of-terrors-talents.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
-    },
-    {
+},
+{
       "name": "tunas-tome-of-terrors-traits",
       "label": "TTT Traits",
       "path": "./packs/tunas-tome-of-terrors-traits.db",
       "private": false,
       "entity": "Item",
       "system": "uesrpg-d100"
-    }
+}
   ],
   "system": [],
   "dependencies": [
-    {
+{
       "name": "compendium-folders",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
       "type": "module"
-    }
+}
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/Tuna-Tome/main/module.json",
