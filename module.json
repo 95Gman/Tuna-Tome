@@ -2,14 +2,7 @@
   "name": "tunas-tome",
   "title": "Tuna's Tome of Terrors",
   "description": "A major expansion to the UESRPG d100 system by TutorialTuna.",
-  "authors":  [
-	{
-      "name": "Gman95#1002"
-    },
-	{
-      "name": "Tutorialtuna#5117"
-    }
-  ],
+  "author": "Gman95#1002"
   "url": "https://github.com/95Gman/Tuna-Tome",
   "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
   "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
