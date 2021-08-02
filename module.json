@@ -2,13 +2,19 @@
   "name": "tunas-tome",
   "title": "Tuna's Tome of Terrors",
   "description": "A major expansion to the UESRPG d100 system by TutorialTuna.",
-  "author": "Gman95#1002",
+  "author": "Gman95",
+  "authors": [],
   "url": "https://github.com/95Gman/Tuna-Tome",
   "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
   "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
+  "flags": {},
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
   "packs": [
 {
       "name": "tunas-tome-of-terrors-bestiary",
@@ -69,11 +75,11 @@
   ],
   "system": [],
   "dependencies": [
-{
+    {
       "name": "compendium-folders",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
       "type": "module"
-}
+    }
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/95Gman/Tuna-Tome/main/module.json",
