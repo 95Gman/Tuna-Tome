@@ -1,0 +1,97 @@
+{
+  "name": "tunas-tome",
+  "title": "Tuna's Tome of Terrors",
+  "description": "A major expansion to the UESRPG d100 system by TutorialTuna.",
+  "authors":  [
+    {
+      "name": "Gman95",
+      "Discord": "Gman95#1002",
+    },
+	    {
+      "name": "TutorialTuna",
+      "Discord": "Tutorialtuna#5117",
+    }
+  ],
+  "url": "https://github.com/95Gman/Tuna-Tome",
+  "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
+  "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
+  "flags": {},
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "tunas-tome-of-terrors-bestiary",
+      "label": "TTT Bestiary",
+      "path": "./packs/tunas-tome-of-terrors-bestiary.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "tunas-tome-of-terrors-foes-and-friends",
+      "label": "TTT Foes & Friends",
+      "path": "./packs/tunas-tome-of-terrors-foes-and-friends.db",
+      "private": false,
+      "entity": "Actor",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "tunas-tome-of-terrors-items",
+      "label": "TTT Items",
+      "path": "./packs/tunas-tome-of-terrors-items.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "tunas-tome-of-terrors-powers",
+      "label": "TTT Powers",
+      "path": "./packs/tunas-tome-of-terrors-powers.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "tunas-tome-of-terrors-spellcraft",
+      "label": "TTT Spellcraft",
+      "path": "./packs/tunas-tome-of-terrors-spellcraft.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "tunas-tome-of-terrors-talents",
+      "label": "TTT Talents",
+      "path": "./packs/tunas-tome-of-terrors-talents.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "tunas-tome-of-terrors-traits",
+      "label": "TTT Traits",
+      "path": "./packs/tunas-tome-of-terrors-traits.db",
+      "private": false,
+      "entity": "Item",
+      "system": "uesrpg-d100"
+    }
+  ],
+  "system": [],
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "coreTranslation": false
+}
