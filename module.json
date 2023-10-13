@@ -1,15 +1,13 @@
 {
-  "id": "tunas-tome",
-  "title": "Tuna's Tome of Terrors",
-  "description": "A major expansion to the UESRPG d100 system by TutorialTuna.",
+  "id": "uesrpg-revision",
+  "title": "UESRPG Revision",
+  "description": "A revision all UESRPG NPCs, items, talents, traits, and more! Also included is a detailed References.",
   "authors": [{"name": "Gman95"}],
-  "authors": [],
-  "url": "https://github.com/95Gman/Tuna-Tome",
-  "readme": "https://github.com/95Gman/Tuna-Tome/blob/main/README.md",
-  "bugs": "https://github.com/95Gman/Tuna-Tome/issues",
+  "url": "https://github.com/95Gman/UESRPG-revised",
+  "readme": "https://github.com/95Gman/UESRPG-revised/blob/main/README.md",
+  "bugs": "https://github.com/95Gman/UESRPG-revised/issues",
   "flags": {},
-  "version": "1.0.6",
-   "compatibility": {
+    "compatibility": {
         "minimum": "10",
         "verified": "11.305"
 	},
@@ -18,77 +16,107 @@
   "styles": [],
   "languages": [],
   "packs": [
-{
-      "name": "tunas-tome-of-terrors-bestiary",
-      "label": "TTT Bestiary",
-      "path": "./packs/tunas-tome-of-terrors-bestiary.db",
-      "private": false,
+    {
+      "name": "items-revised",
+      "label": "Items Revised",
+      "path": "./packs/items-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "exotic-skills",
+      "label": "Exotic Skills",
+      "path": "./packs/exotic-skills.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "traits-revised",
+      "label": "Traits Revised",
+      "path": "./packs/traits-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "powers-revised",
+      "label": "Powers Revised",
+      "path": "./packs/powers-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+	{
+      "name": "talents-revised",
+      "label": "Talents Revised",
+      "path": "./packs/talents-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "spells-revised",
+      "label": "Spells Revised",
+      "path": "./packs/spells-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "journal",
+      "label": "Reference Revised",
+      "path": "./packs/reference-revised-v1.db",
+      "type": "JournalEntry",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "npc-build-reference-items-revised",
+      "label": "NPC Items Revised",
+      "path": "./packs/npc-build-reference-items-revised.db",
+      "type": "Item",
+      "system": "uesrpg-d100"
+    },
+    {
+      "name": "scroll-of-beasts-revised",
+      "label": "Scroll of Beasts Revised",
+      "path": "./packs/scroll-of-beasts-revised.db",
       "type": "Actor",
       "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-foes-and-friends",
-      "label": "TTT Foes & Friends",
-      "path": "./packs/tunas-tome-of-terrors-foes-and-friends.db",
-      "private": false,
+    },
+    {
+      "name": "scroll-of-dwemer-revised",
+      "label": "Scroll of Dwemer Revised",
+      "path": "./packs/scroll-of-dwemer-revised.db",
       "type": "Actor",
       "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-items",
-      "label": "TTT Items",
-      "path": "./packs/tunas-tome-of-terrors-items.db",
-      "private": false,
-      "type": "Item",
+    },
+    {
+      "name": "scroll-of-oblivion-revised",
+      "label": "Scroll of Oblivion revised",
+      "path": "./packs/scroll-of-oblivion-revised.db",
+      "type": "Actor",
       "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-powers",
-      "label": "TTT Powers",
-      "path": "./packs/tunas-tome-of-terrors-powers.db",
-      "private": false,
-      "type": "Item",
+    },
+    {
+      "name": "scroll-of-people-revised",
+      "label": "Scroll of People Revised",
+      "path": "./packs/scroll-of-people-revised.db",
+      "type": "Actor",
       "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-spellcraft",
-      "label": "TTT Spellcraft",
-      "path": "./packs/tunas-tome-of-terrors-spellcraft.db",
-      "private": false,
-      "type": "Item",
+    },
+    {
+      "name": "scroll-of-undeath-revised",
+      "label": "Scroll of Undeath Revised",
+      "path": "./packs/scroll-of-undeath-revised.db",
+      "type": "Actor",
       "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-talents",
-      "label": "TTT Talents",
-      "path": "./packs/tunas-tome-of-terrors-talents.db",
-      "private": false,
-      "type": "Item",
-      "system": "uesrpg-d100"
-},
-{
-      "name": "tunas-tome-of-terrors-traits",
-      "label": "TTT Traits",
-      "path": "./packs/tunas-tome-of-terrors-traits.db",
-      "private": false,
-      "type": "Item",
-      "system": "uesrpg-d100"
-}
+    }
   ],
   "relationships.requires": [
     {
-      "id": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-      "type": "module"
-    },
-    {
-      "id": "uesrpg-revision",
-      "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
+      "id": "gm-notes",
+      "manifest": "https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json",
       "type": "module"
     }
   ],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/95Gman/Tuna-Tome/main/module.json",
-  "download": "https://github.com/95Gman/Tuna-Tome/releases/download/1.0.6/Tuna-Tome-1.0.6.zip",
+  "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
+  "download": "https://github.com/95Gman/UESRPG-Revised/releases/download/1.2.1/UESRPG-Revised-1.2.2.zip",
   "coreTranslation": false
 }
