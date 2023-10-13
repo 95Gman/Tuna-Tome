@@ -69,11 +69,6 @@
   ],
   "relationships.requires": [
     {
-      "id": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-      "type": "module"
-    },
-    {
       "id": "uesrpg-revision",
       "manifest": "https://raw.githubusercontent.com/95Gman/UESRPG-revised/main/module.json",
       "type": "module"
